@@ -18,7 +18,7 @@ nav{
 .nav-container{
     display: flex;
     align-items: center;
-    padding: 20px;
+    padding: 20px 0;
 }
 .brand-logo{
     width: 150px;
@@ -55,4 +55,70 @@ nav{
 }
 .btn a{
     color: white;
+}
+hr.footer{
+    border-top: 1px solid bisque;
+}
+main{
+    padding: 50px 0;
+}
+.icons{
+    font-size: 20px;
+    color: blue;
+}
+.icons i{
+    margin-right: 7px;
+}
+p{
+    color: black;
+    font-size: 12px;
+    line-height: 1.7;
+}
+footer{
+    padding: 10px 0;
+}
+h2{
+    font-size: 35px;
+    padding-bottom: 10px;
+}
+hr.home{
+    margin: 20px 0;
+}
+.blog-cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 25px;
+}
+.blog-card-item{
+    width: 100%;
+    background-color:lightgray;
+    
+
+}
+.blog-image{
+    width: 100%;
+    height: 200px;
+    max-height: 340px;
+}
+.blog-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.card-tag-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.card-tag{
+    padding: 10px;
+    background-color: blueviolet;
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: -17px;
+}
+.card-content{
+    padding: 0 25px 25px 25px;
 }
