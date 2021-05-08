@@ -65,9 +65,11 @@ main{
 .icons{
     font-size: 20px;
     color: blue;
+    
 }
 .icons i{
     margin-right: 7px;
+   
 }
 p{
     color: black;
@@ -88,6 +90,7 @@ hr.home{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 25px;
+    margin-top: 25px;
 }
 .blog-card-item{
     width: 100%;
@@ -121,4 +124,75 @@ hr.home{
 }
 .card-content{
     padding: 0 25px 25px 25px;
+}
+.all-posts{
+    margin-top: 25px;
+}
+.blog-details h1{
+    font-size: 36px;
+    margin: 14px 0;
+    
+}
+.blog-details h2{
+    font-size: 28px;
+    margin: 14px 0;
+    
+}
+.blog-details h3{
+    font-size: 24px;
+    margin: 12px 0;
+   
+}
+.blog-details p{
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 12px 0;
+}
+.blog-details img{
+    width: 100%;
+    height: auto;
+    margin: 12px 0;
+}
+.blog-details .title{
+    font-size: 42px;
+    margin: 30px 0;
+    
+}
+.form-container{
+    margin-top: 50px;
+}
+.form-group{
+    width: 100%;
+    margin-top: 25px;
+}
+.form-group label{
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+}
+.form-input{
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px 10px;
+}
+.form-submit-btn{
+    padding: 5px 10px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    
+
+}
+.hr-about{
+    margin-top: 12px;
+}
+.para-about{
+    margin-top: 15px;
+}
+.head3-about{
+    margin-top: 15px;
 }
